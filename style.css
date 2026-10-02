@@ -1,7 +1,7 @@
 body {
     background-color: #f5f0e8;
     color: #292522;
-    font-family: Arial, serif;
+    font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
@@ -24,4 +24,13 @@ a {
 
 a:hover {
     text-decoration:underline;
+}
+
+ul{
+    list-style: none;
+    li::before{
+        content: "✦";
+        color:#a82978
+        margin-right: 10px;
+    }
 }
