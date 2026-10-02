@@ -26,11 +26,12 @@ a:hover {
     text-decoration:underline;
 }
 
-ul{
+ul {
     list-style: none;
-    li::before{
-        content: "✦";
-        color:#a82978
-        margin-right: 10px;
-    }
+}
+
+ul li::before {
+    content: "✦";
+    color: #a82978;
+    margin-right: 10px;
 }
