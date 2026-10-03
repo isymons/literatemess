@@ -5,7 +5,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
-    border: 1px dotted #a53b8e;
+    border: 20px dotted #a53b8e;
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     font-size: 25px;
+    underline: 20px dotted #a53b8e;
 }
 
 a {
